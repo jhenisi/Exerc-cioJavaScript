@@ -39,3 +39,40 @@ const server = createServer((req, res) => {
 server.listen(3000, '127.0.0.1', () => {
   console.log('Listening on 127.0.0.1:3000')
 });
+
+//parte do arquivo de html
+<html>
+<head>
+<title>Boas vindas</title>
+</head>
+<body>
+    <h1>Seja bem vindo!</h1>
+</body>
+</html>
+
+<html>
+<head>
+<title>Artigos</title>
+</head>
+<body>
+    <h1>Aqui uma lista de artigos</h1>
+</body>
+</html>
+
+<html>
+<head>
+<title>Cotatos</title>
+</head>
+<body>
+    <h1>Contatos</h1>
+</body>
+</html>
+
+<html>
+<head>
+<title>POXA</title>
+</head>
+<body>
+    <h1>Infelismente a página não foi encontrada</h1>
+</body>
+</html>
